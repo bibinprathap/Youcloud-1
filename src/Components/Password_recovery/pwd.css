@@ -1,0 +1,53 @@
+.recovery{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.instruct{
+    text-align:center;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+.form_input{
+    width: 300px;
+}
+
+
+.pwd_recovery_form{
+
+    background-color:rgb(234, 242, 245);
+     /* margin-left: 30%; */
+    background-size: cover;
+    width: 100%;
+}
+
+.form_border{
+    width: 700px;
+    /* border: 1px solid red; */
+    border-radius: 25px;
+    margin: 10px 0;
+    padding: 90px !important;   
+    background-color: white;
+    box-shadow: 0 2px 2px 2px #ccc;
+    margin-left: 28%;
+}
+
+.signin_func{
+    width: 200px !important;
+    height: 40px !important;
+    background-color:rgb(229, 238, 238);
+    border-radius: 20px;
+    
+}
+
+input{
+    width:100%;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid rgb(238, 231, 231);
+}

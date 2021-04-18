@@ -1,0 +1,116 @@
+.you{
+    font-size: 28px;
+    font-weight: bold;
+    color:teal;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.shop{
+    font-size: 28px;
+    font-weight: bold;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    margin: auto auto;  
+}
+
+
+.search_form{
+    align-items: center;
+    margin: auto auto;
+}
+
+.side_icons{
+    font-size: 25px;
+}
+
+.support_icons{
+    font-size: 25px;
+    color: teal;
+}
+
+.form_border{
+    max-width: 600px;
+    border-radius: 25px;
+    margin: 50px auto;
+    padding: 50px !important;
+    background-color: white;
+}
+
+.welcome{
+    font-family:'Times New Roman', Times, serif !important;
+    font-size: 24px;
+    font-weight:normal;
+    text-align: center !important
+}
+
+.stay{
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input{
+    width: 100%;
+    border: 0;
+    outline:none ;
+    border-bottom: 1px solid#e9ecef;
+    padding-bottom: 10px;
+}
+
+.keep-signed {
+    width: 18px;
+    height: 18px;
+}
+
+.buttonstyle{
+    text-align: center;
+}
+
+.buttonstyle1{
+    height: 45px;
+    width:180px;
+    border-radius: 25px; 
+    color:teal;
+    background-color: white;
+    border-color: teal;
+}
+.newaccount{
+    text-align: center;
+}
+
+.buttonstyle2{
+    text-align: center;
+    
+}
+
+.buttonstyle_google{
+    border: 1px solid #dee2e6 !important;
+    width: 100%;
+    max-width: 320px;
+    height: 50px;
+    border-radius: 25px;
+    border: 0;
+    background-color: white;
+}
+
+.google_icon{
+    font-size: 22px;
+}
+
+.form_background{
+width:100%;
+background-color:rgb(234, 242, 245);
+background-size:cover;
+}
+
+.or{
+    text-align: center;
+}
+
+hr{
+    border: 1px solid rgb(241, 240, 240);
+}

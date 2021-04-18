@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+    font-family:'Raleway' !important;
+}
+
+
+.nav{
+background-color:#125E64;
+width: 100%;
+height: 25px;
+
+
+}  
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    color:#FFFFFF !important;
+    font-size: 13px;    
+    
+}
+
+.signin{
+    background-color: #fff;
+    box-shadow: 0 2px 2px 2px #00000021;
+    padding: 60px !important;
+    max-width: 550px !important;
+    border-radius: 22px;
+    margin: 30px 0px;
+}
+
+.button-1{
+    min-height: 45px;
+     color:#125E64 !important;
+     background-color: white;
+     border: 2px solid #125E64; 
+     width: 50%;
+ }
+
+ .signin-divider hr {
+    width: 160px;
+    margin: 12px 20px;
+ }
+
+.button-2{
+    background-color: white;
+    border: 1px solid #dee2e6;
+    width: 405px;
+    height: 74px;
+    font-size: 15px;
+}
+
+.button-3{
+    background-color: white;
+    padding: 5px 40px;
+    border: 1px solid black;
+}
+
+.landing_screen {
+    background-image: url(../../Asset/images/Cell1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+@media only screen and (min-width:426px){
+    .mobile_img{ 
+        justify-content: center;
+        align-items: flex-end;
+        display: flex;
+    }
+        
+}
+@media only screen and (max-width:426px){
+    .mobile_img{
+        display: none ;
+    }
+}
+ 
+
+.mobile_img img {
+    max-height: 550px;
+}
+
+input {
+    width: 100%;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 10px;   
+  
+}
+
+input:focus {
+    outline: none;
+}
+
+.keep-signed {
+    width: 18px;
+    height: 18px;
+    
+}
+
+@media only screen and (max-width: 1100px) {
+    .signin  {
+        max-width: 100% !important;
+        width: 100% !important;
+        flex: auto !important;
+    }
+  }
+
+
+hr{
+    border: 1px solid #E1E1E1 !important;
+}  
+
+.or_color{
+    color: #B2B2B2 !important;
+}
+
+.keep_me_signed_color{
+    color:  #ABB3BB;
+    font-size: 18px;
+}
+
+::placeholder{
+    color:#ABB3BB;
+    font-size: 15px;
+}
+
+.welcome_back_size{
+    font-size: 30px;
+    color:#092C4C;
+}
+
+.online_size{
+    font-size: 16px;
+}
+
+.Email_size{
+    font-size: 18px;
+}
+
+a{
+    font-size: 18px !important;
+}
+
+.dont_have_an_account_size{
+    font-size: 18px;
+    color: #092C4C;
+}
+
+@media only screen and (max-width:1099px){
+    .mobile_view{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+
+.eye_image{
+    right: 5px;
+    color: #434343;
+   
+}
+
+.password_place{
+    z-index: 9;
+    padding-right: 47px;
+}

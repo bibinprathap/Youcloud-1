@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+    font-family:'Raleway' !important;
+}
+
+
+
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    color:white
+}
+
+ul{
+    list-style: none;
+}
+
+.footer_background{
+    background-image: url(../../Asset/images/footer.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    padding: 40px 0px !important; 
+}
+
+footer {
+    background-color: #112e33;
+    border-radius: 26px 26px 0px 0px;    
+}
+
+.copyright_content{
+    color: white;
+    justify-content: space-between;
+}
+
+li{
+    padding: 8px !important 
+}
+
+hr{
+    background: rgb(167, 163, 163);
+}
+
