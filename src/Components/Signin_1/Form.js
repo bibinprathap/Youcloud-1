@@ -113,7 +113,7 @@ class Form extends Component {
 
                                                     <div className="col-sm-6">
                                                         <div className="row d-flex justify-content-end">
-                                                            <a href="/Forgot Password">Forgot Password?</a>
+                                                            <a href="/forgotpassword">Forgot Password?</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -134,7 +134,7 @@ class Form extends Component {
                                     </div>
                                     <br></br>
                                     <div>
-                                        <p className="dont_have_an_account_size">Don't Have an Account? <a href="/Sign Up"> Sign Up</a> </p>
+                                        <p className="dont_have_an_account_size">Don't Have an Account? <a href="/SignUp"> Sign Up</a> </p>
                                     </div>
                                 </div>
                             </div>

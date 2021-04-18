@@ -5,11 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 //import Form from './Components/Form';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import{BrowserRouter} from 'react-router-dom'
 
 ReactDOM.render(  
-    
-    <App />,
-  
+    <BrowserRouter>
+    <App />
+    </BrowserRouter>,
   document.getElementById('root')
 );
 

@@ -3,7 +3,7 @@ import './pwd.css';
 import Nav from '../navigation/nav'
 import Footer from '../Footer/footer'
 
-class password extends Component {
+class Password extends Component {
     render() {
         return (
             <div>
@@ -33,4 +33,4 @@ class password extends Component {
     }
 }
 
-export default password;
+export default Password;
