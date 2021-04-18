@@ -343,7 +343,7 @@ class signup extends Component {
                                 <span className="text-danger">{this.state.totalError!== null ? <span>{this.state.totalError}</span>:""}</span>
                             </div><br/>
                             <div className="dont_have_an_acc">
-                                <p>Don't have an account? <a href="/Sign In">Sign In</a></p>
+                                <p>Don't have an account? <a href="/SignIn">Sign In</a></p>
                             </div>
                         </form>
                     </div>

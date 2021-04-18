@@ -18,8 +18,9 @@ function App() {
         {/* <Form/> */}
         <Switch>
           <Route path='/' exact><Form></Form></Route>
-          <Route path="/forgotpassword" component={Password} />
-          <Route path="/SignUp" component={Signup}/>
+          <Route path="/forgotpassword" exact component={Password} />
+          <Route path="/SignUp" exact component={Signup}/>
+          <Route path="/SignIn" exact component={Form}/>
           
         
           {/* <Form2/> */}
