@@ -23,11 +23,11 @@
 }
     
 .button-1a{
-        min-width: 185px;
         min-height: 45px;
-         color:teal;
-         background-color: white;
-         border: 2px solid teal; 
+     color:#125E64 !important;
+     background-color: white;
+     border: 2px solid #125E64; 
+     width: 50%;
 }
     
 .signin-divider hr {
@@ -38,8 +38,9 @@
 .button-2a{
         background-color: white;
         border: 1px solid #dee2e6;
-        width: 280px;
-        height: 50px;
+        width: 405px;
+        height: 74px;
+        font-size: 15px;
 }
     
 .button-3{
@@ -99,16 +100,22 @@ hr{
 
 .welcome_back{    
         
-        text-align: left !important;
+        font-size: 30px;
+        color:#092C4C;
         
 }
 .online{
-       font-size: 12px; 
+       font-size: 16px; 
 }
 
 
 .font_family_text{
         width:100%;
+}
+
+.keep_me_signed_font_color{
+        color:  #ABB3BB;
+        font-size: 18px;
 }
 
 @media only screen and (max-width:1099px){
@@ -124,4 +131,17 @@ hr{
             display: none ;
         }
     }
-         
+  
+.or_font_color{
+        color: #B2B2B2 !important;
+}    
+
+
+hr{
+        border: 1px solid #E1E1E1 !important;
+    }  
+
+.dont_have_an_accountsize{
+        font-size: 18px;
+        color: #092C4C;
+    }    

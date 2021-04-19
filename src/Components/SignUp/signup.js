@@ -3,6 +3,7 @@ import React from 'react'
 import Nav from '../navigation/nav'
 import Footer from '../Footer/footer'
 import './signup.css'
+import eye from '../../Asset/images/eye.png';
 
 const validEmailMail =(expression)=>{
     const regEp=/^([a-zA-Z0-9]{3,})@([a-z]+)\.([a-z]{2,5})$/
@@ -70,12 +71,18 @@ class signup extends Component {
                             </div>
                             <div className="form-group">
                                 <label htmlFor="Password"><strong>Password</strong></label><br />
-                                <input type="password" id="Password" placeholder="Enter your password" onChange={this.handleChange}></input>
-                                {this.state.error.password.length>1?<span className="text-danger">{this.state.errors.password}</span>:""}
+                                <div className="position-relative">
+                                    <input type="password" id="Password" placeholder="Enter your password"  className="password_place" onChange={this.handleChange}></input>
+                                    {this.state.error.password.length>1?<span className="text-danger">{this.state.errors.password}</span>:""}
+                                    <img className="position-absolute eye_image" src={eye}/>
+                                </div>
                             </div>
                             <div className="form-group">
                                 <label htmlFor="Re-type"><strong>Re-type</strong></label><br />
-                                <input type="Password" id="Re-type" placeholder="Re-type password"></input>
+                                <div className="position-relative">
+                                    <input type="Password" id="Re-type" placeholder="Re-type password"  className="password_place"></input>
+                                    <img className="position-absolute eye_image" src={eye}/>
+                                </div>    
                             </div>
                             <div>
                                 <label htmlFor="country"><strong>Country</strong></label><br />

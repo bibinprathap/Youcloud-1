@@ -6,6 +6,9 @@ import { AiFillFacebook } from 'react-icons/ai';
 // import {Form, FormText} from 'react-bootstrap';
 // import FormFileInput from 'react-bootstrap/esm/FormFileInput';
 import './Form2.css'
+import eye from '../../Asset/images/eye.png';
+import Fb from '../../Asset/images/Fb.png'
+import Google from '../../Asset/images/Google.png'
 
 
 
@@ -78,8 +81,8 @@ class Form2 extends Component {
 
                             <div className="signin-1  col-sm-6">
                                 <div className="">
-                                    <h3 className="welcome_back">Welcome Back !</h3>
-                                    <p className="online">Online Grocery Shopping</p>
+                                    <h3 className="welcome_back"><strong>Welcome Back !</strong></h3>
+                                    <p className="online">Online Grocery Shopping</p><br/>
                                     <form>
                                         <div className="form-group mb-4">
                                             <label htmlFor="email"><strong>Email</strong></label><br></br>
@@ -88,8 +91,11 @@ class Form2 extends Component {
                                         </div>
                                         <div className="form-group mb-4">
                                             <label htmlFor="Password"><strong>Password</strong></label><br></br>
-                                            <input type="Password" name="password" id="Password" placeholder="Enter your password" onChange={this.handleChange} />
-                                            {this.state.error.password.length>1?<span className="text-danger">{this.state.errors.password}</span>:""}
+                                            <div className="position-relative">
+                                                <input type="Password" name="password" id="Password" placeholder="Enter your password" className="password_place" onChange={this.handleChange} />
+                                                {this.state.error.password.length>1?<span className="text-danger">{this.state.errors.password}</span>:""}
+                                                <img className="position-absolute eye_image" src={eye}/>
+                                            </div>
                                         </div>
                                         <div className="form-group mb-4">
                                             <div className="col-sm-12">
@@ -97,7 +103,7 @@ class Form2 extends Component {
                                                     <div className="col-sm-6">
                                                         <div className="row d-flex align-items-center">
                                                             <input type="checkbox" className="keep-signed-1" name="signed" />
-                                                            <label for="signed" className="mb-0">&nbsp; Keep me signed</label>
+                                                            <label for="signed" className="mb-0 keep_me_signed_font_color">&nbsp; Keep me signed</label>
                                                         </div>
                                                     </div>
 
@@ -113,19 +119,19 @@ class Form2 extends Component {
                                     </form>
                                     <button className="button-1a"> Sign in</button>
                                     <div className="signin-divider mt-4 d-flex">
-                                        Or<hr />
+                                        <span className="or_font_color">Or</span><hr />
                                     </div>
                                     <br></br>
                                     <div>
-                                        <button className="button-2a"><FcGoogle />&nbsp; Continue with Google</button>
+                                        <button className="button-2a"><img src={Google}/>&nbsp;&nbsp;&nbsp; Continue with Google</button>
                                     </div>
                                     <br></br>
                                     <div>
-                                        <button className="button-2a"><AiFillFacebook />&nbsp; Continue with Facebook</button>
+                                        <button className="button-2a"><img src={Fb}/>&nbsp; Continue with Facebook</button>
                                     </div>
                                     <br></br>
                                     <div>
-                                        <p>Don't Have an Account? <a href="/Sign Up"> Sign Up</a> </p>
+                                        <p className="dont_have_an_accountsize">Don't Have an Account? <a href="/Sign Up"> Sign Up</a> </p>
                                     </div>
                                 </div>
                             </div>
