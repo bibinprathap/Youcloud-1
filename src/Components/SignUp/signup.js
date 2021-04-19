@@ -24,7 +24,7 @@ class signup extends Component {
         count: 2
     }
     handleChange = (event)=>{
-        //console.log(event)
+        
         const { name, value } = event.target;
         let errors= this.state.error
         switch (name){
@@ -72,7 +72,7 @@ class signup extends Component {
                             <div className="form-group">
                                 <label htmlFor="Password"><strong>Password</strong></label><br />
                                 <div className="position-relative">
-                                    <input type="password" id="Password" placeholder="Enter your password"  className="password_place" onChange={this.handleChange}></input>
+                                    <input type="password" name="password" id="Password" placeholder="Enter your password"  className="password_place" onChange={this.handleChange}></input>
                                     {this.state.error.password.length>1?<span className="text-danger">{this.state.errors.password}</span>:""}
                                     <img className="position-absolute eye_image" src={eye}/>
                                 </div>
