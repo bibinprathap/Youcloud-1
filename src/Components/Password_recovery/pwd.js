@@ -21,7 +21,7 @@ class Password extends Component {
                                     <input className="form_input" type="email" id="Email" name="email" placeholder="resetpassword@gmail.com"></input>
                                 </div>
                                 <div>
-                                    <button className="signin_func">Sign In</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/Log In">Back to Log In</a>
+                                    <button className="signin_func">Sign In</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/SignIn">Back to Log In</a>
                                 </div>
                             </form>
                         </div>
