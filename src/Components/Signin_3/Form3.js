@@ -54,13 +54,16 @@ class Form3 extends Component {
 
     render() {
         return (
-            <div className="container-fluid">
-
-                <div className="row">
-                    <Nav count={this.state.count} />
-                    <div className="form_background">
-                        <section>
-                            <div className="form_border">
+            <>
+               <Nav count={this.state.count} />
+            <div className="container-fluid form_background">
+         
+                
+                
+              
+                        <section  className="row align-items-center justify-content-center">
+                            <div className=" col-12 col-sm-8 col-xl-5">
+                            <div className="form_border_3 p-3 p-md-5">
                                 <p className="welcome">Welcome Back !</p>
                                 <p className="stay">Stay signed in with your account to make searching easier</p><br />
                                 <form>
@@ -112,14 +115,17 @@ class Form3 extends Component {
                                     <p>Don't Have an Account?<a href="/Sign Up">&nbsp; Sign Up</a></p>
                                 </div>
                             </div>
-                        </section>
-                        <footer>
-                            <Footer />
-                        </footer>
-                    </div>
-                </div>
+                      
+                            </div>
+                   </section>
+                     
+                
+        
+
 
             </div>
+            <Footer />
+            </>
         );
     }
 }

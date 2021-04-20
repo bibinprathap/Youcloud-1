@@ -12,9 +12,6 @@
 }
 
 
-.form_input{
-    width: 300px;
-}
 
 
 .pwd_recovery_form{
@@ -26,14 +23,14 @@
 }
 
 .form_border{
-    width: 700px;
+    /* width: 700px; */
     /* border: 1px solid red; */
     border-radius: 25px;
-    margin: 10px 0;
-    padding: 90px !important;   
+    margin: 40px 0;
+    /* padding: 90px !important;    */
     background-color: white;
     box-shadow: 0 2px 2px 2px #ccc;
-    margin-left: 28%;
+    /* margin-left: 28%; */
 }
 
 .signin_func{

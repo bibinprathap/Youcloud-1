@@ -1,9 +1,9 @@
 .form_border_1{
     
-    width: 600px;    
+    /* width: 600px;     */
     border-radius: 25px;
-    margin: 10px 0;
-    padding: 90px !important;   
+    margin: 40px 0;
+    /* padding: 90px !important;    */
     background-color: white;
     box-shadow: 0 2px 2px 2px #ccc;
 }

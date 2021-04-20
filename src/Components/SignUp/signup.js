@@ -53,8 +53,9 @@ class signup extends Component {
             <div>
                 <Nav count={this.state.count}/>
             <div className="container-fluid signup_form">                
-                <section style={{marginLeft:"30%"}}>
-                    <div className="form_border_1">
+                <section className="row align-items-center justify-content-center ">
+                    <div className=" col-12 col-sm-8 col-xl-5">
+                                    <div className="form_border_1 p-3 p-md-5">
                         <div>
                             <p className="Lets_get_started">Let's get started</p>
                             <p className="Stay_signed">Stay signed in with your account to make searching easier</p>
@@ -354,10 +355,11 @@ class signup extends Component {
                             </div>
                         </form>
                     </div>
-                </section>
-                <Footer />
+                
+                    </div>
+        </section>
             </div>
-              
+            <Footer />
             </div>
         );
     }

@@ -63,14 +63,14 @@ class Form2 extends Component {
             <div className="container-fluid">
                 <div className="row">
                 <div className="font_family_text">
-                    <header className="nav-1">
+                    <header className="nav-1 p-2">
                         <div className="head-1 container-fluid">
                             <span>Copyright @1996-2021 YouShop Ltd. All rights reserved</span>
                             <span>Terms of Use - Privacy Policy - Link to Us</span>                            
                         </div>
                     </header>
 
-                    <section className="landing_screen-1 col-lg-12">
+                    <section className="landing_screen-1 col-lg-12 px-4 px-sm-5">
                         <div className="row h-100 mobile_view_1">
                             <div className=" mobile_img-1 col-lg-6">
                                 <div className="row">
@@ -79,7 +79,7 @@ class Form2 extends Component {
                             </div>
 
 
-                            <div className="signin-1  col-sm-6">
+                            <div className="signin-1 p-4 p-md-5 col-sm-6">
                                 <div className="">
                                     <h3 className="welcome_back"><strong>Welcome Back !</strong></h3>
                                     <p className="online">Online Grocery Shopping</p><br/>
@@ -123,11 +123,11 @@ class Form2 extends Component {
                                     </div>
                                     <br></br>
                                     <div>
-                                        <button className="button-2a"><img src={Google}/>&nbsp;&nbsp;&nbsp; Continue with Google</button>
+                                        <button className="button-2a d-flex justify-content-between align-items-center w-100 px-2 px-md-5 flex-column flex-md-row"><img src={Google}/><div className="small d-md-none">Continue with Google</div><div className="d-none d-md-flex">Continue with Google</div></button>
                                     </div>
                                     <br></br>
                                     <div>
-                                        <button className="button-2a"><img src={Fb}/>&nbsp; Continue with Facebook</button>
+                                        <button className="button-2a d-flex justify-content-between align-items-center w-100 px-2 px-md-5 flex-column flex-md-row"><img src={Fb}/><div className="small d-md-none">Continue with Facebook</div><div className="d-none d-md-flex">Continue with Facebook</div></button>
                                     </div>
                                     <br></br>
                                     <div>

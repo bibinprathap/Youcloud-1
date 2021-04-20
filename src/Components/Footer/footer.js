@@ -10,10 +10,10 @@ import { IoLogoFacebook, IoLogoInstagram } from 'react-icons/io';
 // }
 function footer() {
     return (
-        <div className="container-fluid">
+
             <div className="footer_background">
-                <div className="footer_content">
-                    <div className="list_1">
+                <div className="row footer_content py-3">
+                    <div className="col-12 col-md-auto list_1">
                         <ul>
                             <li>About us</li>
                             <li>Join Sales</li>
@@ -23,7 +23,7 @@ function footer() {
                             <li>Investor Section</li>
                         </ul>
                     </div>
-                    <div className="list_2">
+                    <div className="col-12 col-md-auto list_2">
                         <ul>
                             <li>Help</li>
                             <li>Feedback</li>
@@ -33,14 +33,14 @@ function footer() {
                             <li>Contact Us</li>
                         </ul>
                     </div>
-                    <div className="list_3">
+                    <div className="col-12 col-md-auto list_3">
                         <ul>
                             <li>Suppliers Tool Kit</li>
                             <li>Sell on YouCloud</li>
                             <li>Latest BuyLead</li>
                         </ul>
                     </div>
-                    <div className="list_4">
+                    <div className="col-12 col-md-auto list_4">
                         <ul>
                             <li>Buyers Tool kit</li>
                             <li>Post Your Requirement</li>
@@ -49,7 +49,7 @@ function footer() {
                             <li>Pay With YouCloud</li>
                         </ul>
                     </div>
-                    <div className="list_5">
+                    <div className="col-12 col-md-auto list_5">
                         <ul>
                             <li>Events</li>
                             <li>Trade Shows</li>
@@ -63,12 +63,12 @@ function footer() {
                     </div>
                 </div>
                 <hr />
-                <div className="copyright_content d-flex">
+                <div className="copyright_content d-flex px-4">
                     <span>Copyright <AiFillCopyrightCircle />1996-2021 YouShop Ltd. All rights reserved</span>
                     <span>Terms of Use - Privacy Policy - Link to Us</span>
                 </div>
             </div>
-        </div>
+      
     )
 }
 
